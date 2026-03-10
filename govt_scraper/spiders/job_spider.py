@@ -12,6 +12,6 @@ def parse(self, response):
                 yield {
                     'post_name': title.strip(),
                     'official_url': response.urljoin(link),
-                    'source': 'Sarkari Result',
+                    'source': 'https://www.freejobalert.com/',
                     'scraped_at': '2026-03-11'
                 }
